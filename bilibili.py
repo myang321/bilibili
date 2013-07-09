@@ -14,7 +14,7 @@ def wtl(line):# regular expression
 def srt(d,flag=0,r=False):#sort
     return sorted(d.iteritems(), key=lambda x: x[flag] , reverse=r)
 
-k=9999999
+k=999
 dic={}
 fname='1.ass'  # input file
 fr=file(fname,'r')
