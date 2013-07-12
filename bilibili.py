@@ -1,4 +1,4 @@
-#bilibili comments counting 
+# bilibili comments counting 
 # input file: bilibili popup comments .ass file
 # function: counting the number of comments per second and show it visually by ASCII Art
 import re
