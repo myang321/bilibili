@@ -49,5 +49,5 @@ for e in lst:                        #output
     cnt=cnt+int(e[1])  #counting
     
 out_f.close()
-print cnt
+print fname,cnt
 
