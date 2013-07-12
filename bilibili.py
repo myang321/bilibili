@@ -35,6 +35,7 @@ while True or k>0:  # test switch :  or-and
 fr.close()
 
 lst=srt(dic,0)
+cnt=0 #comments counter
 out_f = open(fname+'.out',"wb")
 for e in lst:                        #output
     print >>out_f,e[0],'=',e[1],' ',
@@ -45,5 +46,8 @@ for e in lst:                        #output
         print >>out_f,'#',
         p+=1
     print >>out_f,''
+    cnt=cnt+int(e[1])  #counting
+    
 out_f.close()
+print cnt
 
